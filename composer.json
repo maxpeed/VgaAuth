@@ -1,0 +1,19 @@
+{
+    "name": "vgait/vga-auth",
+    "description": "User access and authorization in a single package",
+    "type": "library",
+    "require": {
+        "vgait/vga-exception": "^1.0",
+        "vgait/vgadatabase": "^0.9.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Henrik Hansen",
+            "email": "henrik@vgait.se"
+        }
+    ]
+}
