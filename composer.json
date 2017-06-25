@@ -15,5 +15,16 @@
             "name": "Henrik Hansen",
             "email": "henrik@vgait.se"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "\\Vgait\\VgaAuth\\": "src/",
+            "\\Vgait\\VgaAuth\\Exceptions\\" : "exceptions/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "\\Vgait\\VgaAuth\\Tests\\": "tests/"
+        }
+    }
 }
